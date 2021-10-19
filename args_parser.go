@@ -62,7 +62,7 @@ func newKingpinParser() argsParser {
 		insecure:     false,
 		url:          "",
 		rate:         new(nullableUint64),
-		clientType:   fhttp,
+		clientType:   nhttp1,
 		printSpec:    new(nullableString),
 		noPrint:      false,
 		formatSpec:   "plain-text",
