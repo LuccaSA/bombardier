@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"net"
+	// "net"
 	"net/url"
 	"regexp"
 	"runtime"
@@ -303,6 +303,10 @@ func tryParseURL(raw string) (string, error) {
 		)
 	}
 
+	/* We stop after url.Parse, no need to explicit the port
+	   or the hostname.
+
+
 	// If port is not present append a default one to the u.Host.
 	schemePort := map[string]string{
 		"http":  ":80",
@@ -328,6 +332,7 @@ func tryParseURL(raw string) (string, error) {
 	}
 
 	u.Host = net.JoinHostPort(host, port)
+	*/
 
 	return u.String(), nil
 }
