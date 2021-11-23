@@ -14,7 +14,7 @@ jobs:
       branchOrCommit: bombardier-no-port
       project: Microsoft.Crank.Jobs.BombardierLucca/Microsoft.Crank.Jobs.BombardierLucca.csproj
       sourceKey: bombardier
-      noBuild: true
+      noBuild: false
     readyStateText: Bombardier Client
     waitForExit: true
     variables:
