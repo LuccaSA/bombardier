@@ -229,7 +229,6 @@ namespace Microsoft.Crank.Jobs.Bombardier
                     document["result"]["req1xx"].Value<long>()
                     + document["result"]["req2xx"].Value<long>()
                     + document["result"]["req3xx"].Value<long>()
-                    + document["result"]["req3xx"].Value<long>()
                     + document["result"]["req4xx"].Value<long>()
                     + document["result"]["req5xx"].Value<long>()
                     + document["result"]["others"].Value<long>();
