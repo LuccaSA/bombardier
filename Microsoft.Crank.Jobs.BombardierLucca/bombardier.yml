@@ -10,7 +10,7 @@
 jobs:
   bombardier:
     source:
-      repository: https://github.com/corrieriluca/bombardier.git
+      repository: https://github.com/LuccaSA/bombardier.git
       branchOrCommit: bombardier-no-port
       project: Microsoft.Crank.Jobs.BombardierLucca/Microsoft.Crank.Jobs.BombardierLucca.csproj
       sourceKey: bombardier

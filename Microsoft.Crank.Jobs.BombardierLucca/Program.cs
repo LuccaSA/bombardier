@@ -61,15 +61,15 @@ namespace Microsoft.Crank.Jobs.Bombardier
 
             if (RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
             {
-                bombardierUrl = "https://github.com/corrieriluca/bombardier/releases/download/v1.2.5-lucca/bombardier-lucca-windows-amd64.exe";
+                bombardierUrl = "https://github.com/LuccaSA/bombardier/releases/download/v1.2.5-lucca/bombardier-lucca-windows-amd64.exe";
             }
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
             {
-                bombardierUrl = "https://github.com/corrieriluca/bombardier/releases/download/v1.2.5-lucca/bombardier-lucca-linux-amd64";
+                bombardierUrl = "https://github.com/LuccaSA/bombardier/releases/download/v1.2.5-lucca/bombardier-lucca-linux-amd64";
             }
             else if (RuntimeInformation.IsOSPlatform(OSPlatform.OSX))
             {
-                bombardierUrl = "https://github.com/corrieriluca/bombardier/releases/download/v1.2.5-lucca/bombardier-lucca-darwin-amd64";
+                bombardierUrl = "https://github.com/LuccaSA/bombardier/releases/download/v1.2.5-lucca/bombardier-lucca-darwin-amd64";
             }
             else
             {
